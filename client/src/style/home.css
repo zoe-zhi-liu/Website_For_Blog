@@ -1,0 +1,31 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  
+}
+
+.btn-primary {
+  background-color: coral;
+  color: whitesmoke;
+}
+
+.btn-secondary {
+  margin-top: 5px;
+  background-color: cornflowerblue;
+  color: whitesmoke;
+}
+
+
+@media (max-width: 600px) {
+  .responsive-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+ul {
+  list-style: none;
+}

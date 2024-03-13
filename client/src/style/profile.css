@@ -1,0 +1,13 @@
+.link {
+  list-style-type: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
